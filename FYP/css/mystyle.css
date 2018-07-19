@@ -1,0 +1,115 @@
+.top-bar{
+	background: #ec3535;
+	padding:5px 0;
+}
+.social-icons{
+	margin-right:5px;
+	color:#fff;
+	
+}
+.contact-info{
+	color:#fff;
+}
+.icon-size{
+font-size:15px;
+color:#fff;
+}
+.logo{
+	
+	padding:5px 0;
+}
+.language{
+	margin-top:22px;
+
+}
+.our_courses{
+	
+	background: radial-gradient(circle, #009cde, #003087);
+	padding:20px 0;
+	
+}
+
+.our_courses .top-margin{
+	
+	margin-top:30px;
+}
+
+.our_courses h1{ color:#fff;}
+
+
+
+.my-menu{
+	margin-top:27px;
+}
+.my-menu .navbar-default{ background:none; border:none}
+
+.my-menu .navbar-nav .active a, .my-menu .navbar-nav .active a:hover{background:#ff5c33; color:#fff;}
+
+.my-menu .navbar-nav li a:hover{
+	background:#ff5c33; color:#fff;
+}
+
+@media (max-width:1200px)
+{
+	.my-menu .pull-right{
+		float:none !important;
+	}
+}
+
+
+@media (max-width:603px)
+{
+	.our_courses [class*="col-"]{
+		margin-bottom:25px;
+	}
+}
+
+
+.footer{
+	background:#040606;
+	
+	padding:20px 0;
+	color:#fff;
+}
+
+
+.footer p{
+	
+	margin-top:10px;
+	margin-bottom:5px;
+	color:#fff;
+}
+
+
+.footer ul {
+	
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+.footer ul li a{color:#FF5C33; text-decoration:none; font-size:17px;} 
+.footer ul li a:hover{color:#fff; text-decoration:none;}
+
+.footer  .info-my p {font-size:15px;}
+
+.copyright{
+	
+	background:#131E29;
+	color:#9FA2A2;
+	
+}
+.copyright{
+	padding-top:20px;
+	font-size:15px;
+	
+}
+
+/* linked list style code */
+.main-color-bg{
+	
+	background-color: #ec3535 !important;
+  border-color: #ca4242 !important;
+  color:#ffffff !important;
+
+	
+}

@@ -1,0 +1,211 @@
+body{
+	
+	background:#f4f4f4;
+}
+/*  Top Navbar*/
+.navbar{
+	
+	min-height:33px !important;
+	margin-bottom:0px;
+	border-radius:0px;
+}
+.navbar-nav > li >a ,.navbar-brand{
+	padding-top:6px !important;
+	padding-bottom:0px !important;
+	height:33px;
+	
+}
+@media (max-width:603px )
+{
+	.navbar-brand{
+		
+		margin-top:10px;
+		
+	}
+}
+.navbar-default {
+  background-color: #ec3535;
+  border-color: #ca4242;
+}
+.navbar-default .navbar-brand {
+  color: #fffafb;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #0d0d0d;
+}
+.navbar-default .navbar-text {
+  color: #fffafb;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fffafb;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #0d0d0d;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #0d0d0d;
+  background-color: #ca4242;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #0d0d0d;
+  background-color: #ca4242;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ca4242;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ca4242;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fffafb;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #fffafb;
+}
+.navbar-default .navbar-link {
+  color: #fffafb;
+}
+.navbar-default .navbar-link:hover {
+  color: #0d0d0d;
+}
+
+.main-color-bg{
+	
+	background-color: #ec3535 !important;
+  border-color: #ca4242 !important;
+  color:#ffffff !important;
+	
+}
+/*  Header*/
+#header{
+	
+	background:#2A211C;
+	color:#fff;
+	padding-bottom:10px;
+	margin-bottom:15px;
+	
+}
+
+#header .creat{
+	
+	padding-top:25px;
+}
+
+/* BreadCrumb */
+
+.breadcrumb{
+	background:#cccccc;
+	color:#333333;
+	
+}
+.breadcrumb a
+{ color:#333333;
+
+}
+
+/* Panel  */
+.panel{
+	
+	margin-top:10px;
+}
+
+.panel .panel-heading p{
+	padding-top:5px;
+	font-size:20px;
+}
+.dash-box{
+	text-align:center;
+	
+}	
+	
+.save_button {
+    width:100%;
+}
+.scrollable-panel{
+     min-height:auto;
+	 max-height:300px;
+      overflow-y:scroll;
+      width:100%;
+      }
+	  
+	  
+	  /*  footer*/
+
+.footer{
+	background:#2A211C;
+	
+	padding:20px 0;
+	color:#fff;
+}
+
+.copyright{
+	
+	background:#2A211C;
+	color:#fff;
+	
+}
+.copyright{
+	padding-top:20px;
+	font-size:15px;
+}
+	/*  login  pages style  */
+#main .col-sm-4{
+	margin-top:33px;
+	margin-bottom:33px;
+}
+	
+	.form-signin #inputEmail{
+		
+		margin-top:3px;
+		margin-bottom:8px;
+		
+	}
+	
+	
+.form-signin .register {
+	
+	padding-top:20px;
+	
+}
+
+/* Registration page style */
+
+.setmargin {
+margin-top:4px;
+margin-bottom:6px;
+	
+}
+.removemargin {
+margin-bottom:0px;
+	
+}
+
+/* User page style* /
+/*style For button action space  */
+.panel .butonspace{
+	margin-left:6px;
+	
+}
+/* Profile page style*/
+.i-am-centered{
+	
+	
+	 margin: auto; max-width: 300px;
+}
+/*  detail page style code */
+.margin_for_comment{
+	padding-top:3px;
+	padding-bottom:0px !important;
+}
+.myclass{
+	margin-top:0px;
+	margin-bottom:0px;
+}
