@@ -95,7 +95,7 @@ if(empty($_SESSION['id']))
 				<tbody>
 				  <tr>
 					<td>Name</td>
-					<td><?php echo $profile['name']; ?></td>
+					<td style="text-transform:capitalize"><?php echo $profile['name']; ?></td>
 				  </tr>
 				  <tr>
 					<td>Password</td>
@@ -115,12 +115,9 @@ if(empty($_SESSION['id']))
 				  </tr>
 				  <tr>
 					<td>City</td>
-					<td><?php echo $profile['city']; ?></td>
+					<td style="text-transform:capitalize"><?php echo $profile['city']; ?></td>
 				  </tr>
-				  <tr>
-					<td>Gender</td>
-					<td><?php echo $profile['gender']; ?></td>
-				  </tr>
+				
 				  <tr>
 					<td>Address</td>
 					<td><?php echo $profile['address']; ?></td>

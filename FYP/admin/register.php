@@ -7,7 +7,7 @@ if(isset($_POST['done']))
 		{
 			$name= $_POST['name'];
 			$email= $_POST['email'];                    
-			$gender= $_POST['gender'];
+			
 			$password= $_POST['pass'];
 			$address= $_POST['address'];
 			$city= $_POST['city'];
@@ -17,7 +17,7 @@ if(isset($_POST['done']))
 			$image = $_FILES['image']['name'];
 			$path = $folder.$image;
 			move_uploaded_file($_FILES['image']['tmp_name'],$path);
-			$query=$class->insert("INSERT INTO users  ( name, img,email, pass, gender, mobile,city,address,role) VALUES ('$name','$image','$email','$password','$gender', '$mobile','$city','$address','$role')");
+			$query=$class->insert("INSERT INTO users  ( name, img,email, pass, mobile,city,address,role) VALUES ('$name','$image','$email','$password', '$mobile','$city','$address','$role')");
 				if($query){
 					
 			$class->redirect("login.php");
@@ -140,12 +140,7 @@ if(isset($_POST['done']))
 				<label>Address</label>
 				<textarea class="form-control setmargin" name="address" rows="5" id="comment"></textarea>
 			
-				  <label class="checkbox-inline">
-				  <input type="checkbox" value="male" name="gender">Male
-				</label>
-				<label class="checkbox-inline">
-				  <input type="checkbox" value="female" name="gender">Female
-				</label>
+				  
 				
 				<input class="btn btn-lg btn-primary btn-block setmargin" type="submit" name="done" value="Sign in"/>
 				<p class="text-center register removemargin">

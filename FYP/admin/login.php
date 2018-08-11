@@ -81,7 +81,7 @@ if($class->doLogin($email,$password))
 				<input type="password" name="pass" id="inputPassword" class="form-control" placeholder="Password" required>
 				<div class="checkbox text-center">
 				 
-				  <a href="#"  type="button" class="btn  btn-link"> Forgot Password</a>
+				  <a href="forgotpass.php"  type="button" class="btn  btn-link"> Forgot Password</a>
 				</div>
 				
 				<input class="btn btn-lg btn-primary btn-block" type="submit" name="done" value="Sign in"/>

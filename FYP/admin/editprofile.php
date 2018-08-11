@@ -17,7 +17,7 @@ if(isset($_POST['done']))
 		{
 			$name= $_POST['name'];
 			$email= $_POST['email'];                    
-			$gender= $_POST['gender'];
+			
 			$password= $_POST['pass'];
 			$address= $_POST['address'];
 			$city= $_POST['city'];
@@ -26,7 +26,7 @@ if(isset($_POST['done']))
 			$image = $_FILES['image']['name'];
 			$path = $folder.$image;
 			move_uploaded_file($_FILES['image']['tmp_name'],$path);
-			$query=$class->update("UPDATE `users` SET  name='$name' ,email='$email',gender='$gender', pass='$password', address='$address',city='$city',mobile='$mobile',img='$image' where id='$ok'");
+			$query=$class->update("UPDATE `users` SET  name='$name' ,email='$email', pass='$password', address='$address',city='$city',mobile='$mobile',img='$image' where id='$ok'");
 			if($query){
 					
 			$class->redirect("index.php");
@@ -129,20 +129,7 @@ if(isset($_POST['done']))
 				<input type="text" id="inputName" name="city" value="<?php echo $profile['city'];  ?>"  class="form-control setmargin" placeholder="City please" required autofocus>
 				<label>Address</label>
 				<textarea class="form-control setmargin" rows="5" name="address"  id="comment"><?php echo $profile['address'];  ?></textarea>
-				<?php 
-				if($profile['gender']=="male") 
-				{
-				$male = "checked";
-				}else{
-				$male = "";	
-				}
-				if($profile['gender']=="female") 
-				{
-				$female = "checked";
-				}else{
-				$female = "";	
-				}
-				?>
+			
 			
 				<input class="btn btn-lg btn-primary btn-block setmargin" name="done" type="submit" value="Update"/>
 				

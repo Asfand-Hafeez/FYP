@@ -1,14 +1,15 @@
 <?php
-
-session_start();
+ob_start();
 error_reporting(0);
-include "config.php";
+session_start();
+
 $search = $_GET['search'];
 if(empty($search))
 {
 	$search = "";
 }
 
+include "config.php";
 
 
 ?>
@@ -20,9 +21,9 @@ if(empty($search))
 	<meta http-equiv="X-UA-compatible" content="IE-edge">
 	<meta name="viewport" content="width=device-width">
 	<title>KatcheryBazar.pk</title>
-	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/mystyle.css" />
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/bootstrap-social@5.1.1/bootstrap-social.css" type="text/css" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/bootstrap-social@5.1.1/bootstrap-social.less" type="text/css" />
 	<style>

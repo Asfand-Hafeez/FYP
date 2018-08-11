@@ -92,7 +92,7 @@ public function doLogin($email,$password)
 			$userRow=$stmt->fetch(PDO::FETCH_ASSOC);
 			if($stmt->rowCount()>0)
 			{
-			session_start();
+//			session_start();
 			$_SESSION['id'] = $userRow['id'];
 			$_SESSION['name'] = $userRow['name'];			
 		

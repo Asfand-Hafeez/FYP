@@ -74,7 +74,7 @@ $postcount= $class->fetchdata("select * from post");
 				<img src="../images/<?php echo $data['img'];?>" alt="" class="img-responsive" />
 				
 				<b>
-				<p class="text-center"><?php echo $data['name'];?></p> </b>
+				<p class="text-center" style="text-transform:capitalize"><?php echo $data['name'];?></p> </b>
 				<p> 
 				<a href="profile.php?id=<?php echo $data['id'];?>" type="button" class="btn btn-primary save_button">Profile</a>
 				
